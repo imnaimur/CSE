@@ -1,0 +1,1 @@
+{"name":"Local: contest","url":"/Users/naimurrahman/Desktop/contest/contest.py","tests":[{"id":1675440437619,"input":"10\na\nb\nc\nd\ne\nf\ng\nh\ni\nj","output":"NO\nNO\nYES\nYES\nYES\nYES\nNO\nNO\nNO\nNO"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/naimurrahman/Desktop/contest/contest.py","group":"local","local":true}

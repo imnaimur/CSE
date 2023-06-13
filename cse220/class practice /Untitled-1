@@ -1,0 +1,88 @@
+# def printRec(n):
+#     if n == 0:
+#         return
+#     print("I love Recursion")
+#     printRec(n-1)
+
+# printRec(3)
+# def print_N(n):
+#     if n == 0:
+#         print()
+#         return
+    
+#     print(n, end = " ")
+#     print_N(n-1)
+
+# print_N(4)
+
+
+# def printDigit(st,i = 0):
+#     if i == len(st):
+#         print()
+#         return
+#     print(st[i],end = " ")
+#     i += 1
+#     printDigit(st,i)
+
+
+# n = int(input())
+# for i in range(n):
+#     st = input()
+#     printDigit(st)
+
+# def baseConvert(n):
+#     if n == 0:
+#         return
+#     else:
+#         baseConvert(n//2)
+#         print(n % 2,end = " ")
+
+# baseConvert(10)
+# print()
+
+# def sumDigits(n):
+#     if n == 0:
+#         return 0
+#     else:
+#         sum = n % 10
+#         n = n/10
+#         return sum + sumDigits(int(n))
+
+
+# print(sumDigits(126))
+
+# def bunnyEars(n):
+#     if n == 0:
+#         return 0
+#     if n%2 == 0:
+#         ears = 3
+#         return ears + bunnyEars(n-1)
+#     else:
+#         ears = 2
+#         return ears + bunnyEars(n-1)
+    
+# print(bunnyEars(2))
+
+class Node:
+    def __init__(self,elem,nxt) -> None:
+        self.elem = elem
+        self.next = nxt
+
+class Queue:
+    # def __init__(self,arr) -> None:
+    #     self.head = Node(arr[0],None)
+    #     tail = self.head
+    #     i = 1
+    #     while i < len(arr):
+    #         n = Node(arr[i],None)
+    #         tail.next = n
+    #         tail = n
+    #         i += 1
+    # def peek(self):
+    #     tail = self.head
+    #     s = " "
+    #     while tail.next != None:
+    #         s += tail.elem + " "
+    #         tail = tail.next
+    #     return s
+    
